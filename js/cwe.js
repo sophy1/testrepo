@@ -85,6 +85,12 @@ function CWE_685() { // MISMATCHED_COUNT_OF_ARGS
     return Math.atan2(a/b);
 }
 
+
+function CWE_test() { // MISMATCHED_COUNT_OF_ARGS
+    return 1/0;
+}
+
+
 function CWE_843() { // BAD_TYPE_COERCION
     var backPosition;
     return "backgroundPosition: " + backPosition + "px; ";
