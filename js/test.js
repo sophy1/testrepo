@@ -40,3 +40,9 @@ function poo(headers) {
         }
     }
 }
+
+function add(x, y) {
+    x + y;
+}
+
+const sum = add(1,2);
