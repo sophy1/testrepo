@@ -5,7 +5,7 @@ function showProduct(first: number, second: number): void {
     console.log("The product: " +  first * second);
     if (first > second) {
       return first;
-    } if (first < second) {
+    } else if (first < second) {
        return second;
     }
 }
