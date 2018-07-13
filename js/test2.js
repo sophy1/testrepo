@@ -21,3 +21,11 @@ function test3(x) {
     return foo(x.prop1); // alarm
   }
 }
+
+// compare nan directly
+function test4(x) {
+  var x = undefined + 0;
+  if (x === NaN) {
+    x = 0;
+  }
+}
