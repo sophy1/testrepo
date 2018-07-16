@@ -1,6 +1,6 @@
 function test1(x) {
   function foo(x) { return x.prop; }
-  if (!x) {
+  if (x) {
     return foo(x); // alarm
   }
 }
@@ -19,5 +19,13 @@ function test3(x) {
   function foo(y) { return y.prop2; }
   if (!x.prop1) {
     return foo(x.prop1); // alarm
+  }
+}
+
+// compare nan directly
+function test4(x) {
+  var x = undefined + 0;
+  if (x === NaN) {
+    x = 0;
   }
 }
