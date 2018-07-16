@@ -12,6 +12,5 @@ function showProduct(first: number, second: number): void {
 }
 
 b = 'test';
-a = {};
 
 showProduct(a, b);
