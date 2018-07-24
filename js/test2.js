@@ -1,6 +1,6 @@
 function test1(x) {
   function foo(x) { return x.prop; }
-  if (x) {
+  if (!x) {
     return foo(x); // alarm
   }
 }
