@@ -21,3 +21,13 @@ function test3(x) {
     return foo(x.prop1); // alarm
   }
 }
+
+function test4(x) {
+  if (x) {
+    return x;
+  } if (!x) {
+    return null;
+  } else {
+    var temp = x; 
+  }
+}
