@@ -31,3 +31,9 @@ function test4(x) {
     var temp = x; 
   }
 }
+
+function test5(x) {
+  const t = x;
+  t = 'test;
+  return x;
+}
