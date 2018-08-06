@@ -34,6 +34,6 @@ function test4(x) {
 
 function test5(x) {
   const t = x;
-  t = 'test;
+  t = "test";
   return x;
 }
