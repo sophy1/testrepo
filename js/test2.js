@@ -37,3 +37,21 @@ function test5(x) {
   t = "test";
   return y;
 }
+
+function test6(x) {
+  const t = x;
+  t = "test";
+  return y;
+}
+
+class A {
+    constructor() {}
+}
+class B extends A {
+    constructor() {
+        this.a = 1;
+        super(); // ACCESS_THIS_BEFORE_SUPER_CALL alarm
+    }
+}
+
+new B();
