@@ -39,9 +39,9 @@ function test5(x) {
 }
 
 function test6(x) {
-  const t = x;
-  t = "test";
-  return y;
+    bar = 4; // ASSIGN_BEFORE_DECL alarm
+    var bar;
+    console.log(bar);
 }
 
 class A {
