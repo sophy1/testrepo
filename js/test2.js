@@ -49,7 +49,7 @@ class A {
 }
 class B extends A {
     constructor() {
-        this.a = 1;
+        this.a = 12;
         super(); // ACCESS_THIS_BEFORE_SUPER_CALL alarm
     }
 }
