@@ -39,7 +39,7 @@ function test5(x) {
 }
 
 function test6(x) {
-    bar = 4; // ASSIGN_BEFORE_DECL alarm
+    bar = 44; // ASSIGN_BEFORE_DECL alarm
     var bar;
     console.log(bar);
 }
