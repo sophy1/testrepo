@@ -44,14 +44,3 @@ function test6(x) {
     console.log(bar);
 }
 
-class A {
-    constructor() {}
-}
-class B extends A {
-    constructor() {
-        this.a = 12;
-        super(); // ACCESS_THIS_BEFORE_SUPER_CALL alarm
-    }
-}
-
-new B();
