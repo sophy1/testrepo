@@ -44,3 +44,5 @@ function test6(x) {
     console.log(bar);
 }
 
+const a = 'q';
+a = 'b';
